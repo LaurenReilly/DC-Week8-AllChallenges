@@ -10,9 +10,18 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     </head>
     <body>
-        <h1>Map-maker Map-maker</h1>
-        <h3>Make Me A Map</h3>
-        <h5>NOW!</h5>
+        <div class="text-center">
+            <h1 class="mb-3">Map-maker Map-maker</h1>
+            <h2>Make Me A Map</h2>
+            <p>...NOW!</p>
+        </div>
+        <div class="mapContainer d-flex justify-content-center align-items-center">
+                <div class="border rounded" id="map"></div>
+                <button class="btn btn-success mr-5" onclick="togglePins()">Toggle Pins</button>
+        </div>
+
         <script src="main.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNQXlVeZMxEKKrYgMhO-NpOvYGH1WBcUo&callback=initMap"
+        type="text/javascript"></script>
     </body>
     </html>

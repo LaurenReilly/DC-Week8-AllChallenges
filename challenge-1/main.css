@@ -14,8 +14,29 @@ h1 {
     font-family: 'Lobster', cursive;
     color: #E5B083;
     text-shadow: 5px 5px #426E5D;
+    font-size: 7em;
 }
 
-h2, h5 {
+h2 {
+    font-size: 3em;
+    font-family: 'Lobster', cursive;
+}
+
+h2, p {
     color: #426E5D;
+}
+
+.mapContainer {
+    background-color: #20283D;
+    width: 90%;
+    height: 550px;
+    border: 5px solid #E5B083;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+#map {
+    height: 500px;
+    width: 80%;
+    margin: 0 auto;
 }
