@@ -1,0 +1,21 @@
+/* #FBF7F3 off white
+#E5B083 tan
+#426E5D green
+#20283D Blue */
+
+body {
+    background-color: #FBF7F3;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1em;
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    color: #E5B083;
+    text-shadow: 5px 5px #426E5D;
+}
+
+h2, h5 {
+    color: #426E5D;
+}
