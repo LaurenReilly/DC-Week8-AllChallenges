@@ -2,6 +2,7 @@
 var ui = new firebaseui.auth.AuthUI(firebase.auth());
 
 
+// enabling and configuring the ways that users can sign in
 //Add the email provider ID to the list of FirebaseUI signInOptions.
 ui.start('#firebaseui-auth-container', {
     signInOptions: [
@@ -11,7 +12,7 @@ ui.start('#firebaseui-auth-container', {
   });
 
 
-
+  // Specify the FirebaseUI configuration (providers supported and UI customizations as well as success callbacks, etc)
 var uiConfig = {
     callbacks: {
       signInSuccessWithAuthResult: function(authResult, redirectUrl) {
@@ -48,6 +49,6 @@ document.getElementById('signOut').addEventListener('click', function() {
   });
 
 
-
+  // Finally, render the FirebaseUI Auth interface
   // The start method will wait until the DOM is loaded.
 ui.start('#firebaseui-auth-container', uiConfig);
