@@ -1,0 +1,17 @@
+body {
+    background-color: #2B2B26
+}
+
+h1 {
+    color: #E8DCCC;
+    text-shadow: 3px 3px #706B66;
+    font-family: 'Lobster', cursive;
+    font-size: 7em;
+}
+
+h2, h3 {
+    color: #E8DCCC;
+    font-size: 3em;
+    font-family: 'Fjalla One', sans-serif;
+    text-shadow: 2px 2px #706B66;
+}
