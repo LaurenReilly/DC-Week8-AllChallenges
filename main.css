@@ -1,0 +1,23 @@
+/* dark purple #300030
+Light Purple  #602879
+Orange      #F89020
+Yellow         #F8F088 */
+
+body {
+    background-color: #000000;
+    font-size: 1em;
+}
+
+h1 {
+    color: #66cc00;
+    text-shadow: 3px 3px #FFFFFF;
+    font-family: 'Lobster', cursive;
+    font-size: 7em;
+}
+
+h2, h3 {
+    color: #ff6600;
+    font-size: 3em;
+    font-family: 'Fjalla One', sans-serif;
+    text-shadow: 2px 2px #FFFFFF;
+}
