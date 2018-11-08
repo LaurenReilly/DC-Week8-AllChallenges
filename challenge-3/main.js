@@ -37,7 +37,8 @@ function writeNewPost(comment) {
 
 // on() runs initially AND anytime there is a change to the database
 posts.on('value', function(snapshot) {
-//this while statement prevents the code from reposting the entire database, it essentially delets the entire old list and then the following code repopulates all the data so it looks like you are just adding the newest entry.
+//this while statement prevents the code from reposting the entire database, it essentially delets the entire old list and then the following code repopulates all the data so it looks like you are just adding the newest entry. 
+//could also set thread.innerHTML to an empty string
     while(commentList.firstChild){
         commentList.removeChild(commentList.firstChild);
       }
